@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 export class Navbar extends Component {
 
 
+    
     render() {
         return (
             <div>
@@ -21,10 +22,10 @@ export class Navbar extends Component {
                                     <a className="nav-link" href="/">About</a>
                                 </li>
                             </ul>
-                            <div className="form-check form-switch text-dark">
+                            {/* <div className="form-check form-switch text-dark">
                                 <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
                                 <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable dark Mode</label>
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>
